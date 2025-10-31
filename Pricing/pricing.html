@@ -23,58 +23,128 @@
         </div>
 
         <!-- first card -->
-        <div class="card mt-4 h-86 w-[500px] bg-[#282626] shadow-sm">
-            <div class="p-3">
-                <div class="border-b border-gray-700">
-                    <div class="flex justify-between">
-                        <h2 class="text-xl font-bold">Free</h2>
-                        <p
-                            class="bg-pink-500 border-none flex items-center justify-center text-black w-14 font-serif h-5 rounded-md text-xs">
-                            Active</p>
+        <div class="grid grid-cols-3 items-center mt-4 gap-4">
+            <div class="card h-96 w-[500px] bg-[#282626] shadow-sm">
+                <div class="p-3">
+                    <div class="border-b border-gray-700">
+                        <div class="flex justify-between">
+                            <h2 class="text-xl font-bold">Free</h2>
+                            <p
+                                class="bg-pink-500 border-none flex items-center justify-center text-black w-14 font-serif h-5 rounded-md text-xs">
+                                Active</p>
+                        </div>
+                        <h1 class="text-2xl font-bold mt-4">$0</h1>
+                        <p class="text-xs opacity-80 mb-5 mt-4">Always free</p>
                     </div>
-                    <h1 class="text-2xl font-bold mt-4">$0</h1>
-                    <p class="text-xs opacity-80 mb-5 mt-4">Always free</p>
-                </div>
 
-                <ul class="mt-6 flex flex-col gap-2 text-xs">
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
-                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>🚫 No commercial rights</span>
-                    </li>
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
-                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>🖼️ Basic 3D cartoon image generation</span>
-                    </li>
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
-                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>🧠 Limited access to story templates</span>
-                    </li>
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
-                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>🗣️ Basic AI voiceover support</span>
-                    </li>
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
-                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>🎬 Generate short AI videos (up to 30 sec)</span>
-                    </li>
-                </ul>
+                    <ul class="mt-6 flex flex-col gap-2 text-xs">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>🚫 No commercial rights</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>🖼️ Basic 3D cartoon image generation</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>🧠 Limited access to story templates</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>🗣️ Basic AI voiceover support</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>🎬 Generate short AI videos (up to 30 sec)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- second card -->
+
+            <div class="card h-96 w-[500px] bg-[#282626] shadow-sm">
+                <div class="card-body">
+                    <h1 class="text-xl font-bold">Starter Plan</h1>
+                    <p class="text-sm opacity-80">Great for casual creators who want more flexibility and creative
+                        power.</p>
+                    <h2 class="text-xl font-bold">$6.99
+
+                        Month</h2>
+                    <a class="text-xs" href="">
+                        <input type="checkbox" checked="checked" class="toggle w-8 h-5 bg-pink-700" />
+                        Billed annually
+                    </a>
+                    <ul class="mt-6 flex flex-col gap-2 text-xs">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>High-resolution image generation</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>Customizable style templates</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>Batch processing capabilities</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>AI-driven image enhancements</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 me-2 inline-block text-success"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>Seamless cloud integration</span>
+                        </li>
+                    </ul>
+                    <div class="mt-6">
+                        <button
+                            class="btn bg-pink-500 border-none shadow-none hover:bg-pink-400 btn-block">Subscribe</button>
+                    </div>
+                </div>
             </div>
         </div>
+
     </section>
 
 </body>
